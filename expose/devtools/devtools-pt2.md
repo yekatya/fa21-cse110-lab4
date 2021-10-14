@@ -1,1 +1,2 @@
-
+1. The bug was that the user was inputting strings for the values of num1 and num2. When the function calculateSum was called, the variable result was adding two strings which doesn't add the integer values of num1 and num2 because num1 and num2 are strings. Therefore, the program concatenates the two strings into another string by appending the string num2 to the string num1.
+2. I would use the method parseInt() to parse the num1 and num2 values into integers rather than strings. In line 11 of the code when initializing the result variable, I would put parseInt(num1) + parseInt(num2). 
