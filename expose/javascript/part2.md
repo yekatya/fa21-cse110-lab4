@@ -25,3 +25,7 @@
 
 15.) === is a strict equality operator, so it checks the equality without type conversion. == will check the equality with type conversion. 
 
+17.) [2,4,6] is the result. The function call to doSomething in the second parameter of the function call to modifyArray will produce a result of 0 because num is, by default, intitialized to be a value of 0. callback refers to the doSomething function, so for the first iteration i=0, callback(1) is pushed to newArr = doSomething(1) = 2. For i=1, callback(2) is pushed to newArr = doSomething(2) = 4, and for i=2, callback(3) is pushed to newArr = doSomething(3) = 6. What is returned is newArr = [2,4,6].
+
+19.) 1 4 3 2
+
