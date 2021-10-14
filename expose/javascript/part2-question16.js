@@ -8,5 +8,7 @@ let statistics = {
 };
 
 for (car in statistics) {
-  console.log(`${car}: ${statistics[car]}`);
+  if (`${statistics[car]}` % 2 != 0 || `${car}`[0] == "r") {
+    console.log(`${car}: ${statistics[car]}`);
+  }
 }
